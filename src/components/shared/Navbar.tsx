@@ -27,22 +27,22 @@ const Navbar = () => {
         className={`hidden lg:flex space-x-8 text-sm font-semibold tracking-wide`}
       >
         <li>
-          <a href="#" className="text-orange-500 flex items-center space-x-1">
+          <a href="/" className="text-orange-500 flex items-center space-x-1">
             <span>HOME</span>
           </a>
         </li>
         <li>
-          <a href="#" className="hover:text-gray-800">
+          <a href="services" className="hover:text-gray-800">
             OUR SERVICES
           </a>
         </li>
         <li>
-          <a href="#" className="hover:text-gray-800">
+          <a href="team" className="hover:text-gray-800">
             OUR TEAM
           </a>
         </li>
         <li>
-          <a href="#" className="hover:text-gray-800">
+          <a href="prices" className="hover:text-gray-800">
             PRICING PLAN
           </a>
         </li>
