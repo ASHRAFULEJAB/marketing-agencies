@@ -18,11 +18,12 @@ const BusinessSection = () => {
           Functional
         </h2>
         <h1 className="text-5xl font-bold leading-tight mb-4">
-          What we can do for your{" "}
+          What we can do for <br /> your{" "}
           <span className="text-orange-500">business</span>
         </h1>
         <p className="text-gray-600 text-lg leading-relaxed mb-6">
-          Duis augue dolor sit amet metus auctor lacinia.
+          We offer a comprehensive range of services tailored to your business
+          needs.
         </p>
         {progressBars.map((bar, index) => (
           <div key={index} className="mb-4">

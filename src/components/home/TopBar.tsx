@@ -29,7 +29,7 @@ const TopBar = () => {
         <div className="flex flex-col md:flex-row items-center space-y-2 md:space-y-0 md:space-x-4">
           <span className="flex items-center space-x-1">
             <FaCommentDots />
-            <span>borgholm@qodeinteractive.com</span>
+            <span>info@Rising-Phoenix.com</span>
           </span>
           <span className="flex items-center space-x-1">
             <FaPhoneAlt />

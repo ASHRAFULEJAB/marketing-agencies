@@ -27,20 +27,24 @@ const FeatureSection = () => {
           businesses
         </h1>
         <p className="italic text-gray-600 mb-6">
-          Etiam hendrerit tortor blandit quam varius vitae.
+          Explore innovative tools designed to optimize your business
+          operations.
         </p>
         <ul className="list-none space-y-4 text-gray-600">
           <li className="flex items-start">
             <span className="text-orange-500 mr-2">✔</span>
-            Donec quis et egestas sapien in placerat nam tristique metus facilisis viverra tortor nec ligula.
+            Seamless integration with existing platforms to streamline
+            workflows.
           </li>
           <li className="flex items-start">
             <span className="text-orange-500 mr-2">✔</span>
-            Imperdiet eget tellus, ut pulvinar dui. Sed nec pretium purus fusce pharetra nibh.
+            Advanced analytics to provide actionable insights for better
+            decision-making.
           </li>
           <li className="flex items-start">
             <span className="text-orange-500 mr-2">✔</span>
-            Dolor sed maecenas quis faucibus justo, nibh ultricies praesent justo dolor, dignissim cursus.
+            Enhanced security features to protect your business data and
+            privacy.
           </li>
         </ul>
       </div>

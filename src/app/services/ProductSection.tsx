@@ -23,21 +23,22 @@ const ProductSection = () => {
           Make better products <br /> make products better
         </h1>
         <p className="text-gray-600 text-lg leading-relaxed mb-6">
-          Etiam hendrerit tortor blandit quam varius vitae.
+          We help you refine your products to meet market demands while ensuring
+          high quality and performance.
         </p>
         <ul className="list-none space-y-4 mb-6">
           <li className="flex items-start">
             <span className="text-orange-500 font-bold mr-2">✓</span>
             <p>
-              Donec quis et egestas sapien in placerat nam tristique metus
-              facilisis viverra tortor nec ligula.
+              Leverage data-driven insights to enhance product features and
+              functionality, ensuring they align with customer needs.
             </p>
           </li>
           <li className="flex items-start">
             <span className="text-orange-500 font-bold mr-2">✓</span>
             <p>
-              Dolor sed maecenas quis faucibus justo, nibh ultricies praesent
-              justo dolor, dignissim cursus.
+              Implement efficient production processes that reduce costs while
+              maintaining high standards of quality.
             </p>
           </li>
         </ul>

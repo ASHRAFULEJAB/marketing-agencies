@@ -4,7 +4,7 @@ import Image from "next/image";
 
 const HeroSection = () => {
   return (
-    <div className="relative w-full h-screen">
+    <div className="relative w-full h-[75vh]">
       {/* Background Image */}
       <Image
         src={ourServiceHeroImage}
@@ -25,8 +25,8 @@ const HeroSection = () => {
           <h2 className="text-sm text-white uppercase tracking-widest mb-2">
             What We Offer
           </h2>
-          <h1 className="text-4xl lg:text-6xl font-bold text-white leading-tight">
-            We provide new identities, develop brands and launch websites for
+          <h1 className="text-4xl lg:text-4xl font-bold text-white leading-tight">
+            We provide new identities, develop brands and <br /> launch websites for
             businesses
           </h1>
         </div>

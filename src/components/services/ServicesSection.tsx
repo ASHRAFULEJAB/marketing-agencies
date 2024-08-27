@@ -10,22 +10,26 @@ const services = [
   {
     icon: SeoImage,
     title: "SEO Consultancy",
-    description: "Etiam vel placerat enim dapibus varius massa sodales lacinia",
+    description:
+      "Expert guidance to improve your search engine visibility and drive organic traffic to your website.",
   },
   {
     icon: CompetitorAnalysisImage,
     title: "Competitor Analysis",
-    description: "Etiam vel placerat enim dapibus varius massa sodales lacinia",
+    description:
+      "In-depth analysis of your competitors' strategies to help you stay ahead in the market.",
   },
   {
     icon: SocialMarketingImage,
     title: "Social Marketing",
-    description: "Etiam vel placerat enim dapibus varius massa sodales lacinia",
+    description:
+      "Strategic social media campaigns designed to boost your brand presence and engagement.",
   },
   {
     icon: ReportingAnalysisImage,
     title: "Reporting & Analysis",
-    description: "Etiam vel placerat enim dapibus varius massa sodales lacinia",
+    description:
+      "Comprehensive reports and analysis to measure the effectiveness of your marketing efforts.",
   },
 ];
 

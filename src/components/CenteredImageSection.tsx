@@ -51,7 +51,8 @@ const CenteredVideoSection = () => {
           Find Out More
         </h3>
         <h2 className="text-4xl font-bold text-gray-900 mb-4">
-          Save <span className="text-red-500">Time & Effort</span> with the
+          Save <span className="text-red-500">Time & Effort</span> with the{" "}
+          <br />
           Rising Phinix SEO team
         </h2>
         <p className="italic text-lg text-gray-600 mb-8">

@@ -4,7 +4,7 @@ import BackgroundImage from "../../assets/images/ourteamHero.jpg"; // Replace wi
 
 const TeamSection = () => {
   return (
-    <div className="relative w-full h-screen">
+    <div className="relative w-full h-[75vh]">
       {/* Background Image */}
       <Image
         src={BackgroundImage}
@@ -23,9 +23,9 @@ const TeamSection = () => {
         <h4 className="text-white text-sm uppercase tracking-wide mb-4">
           Our Awesome Team
         </h4>
-        <h1 className="text-white text-4xl lg:text-6xl font-bold leading-tight">
-          Since joining Borgholm, we’ve grown the division into a team that
-          covers everything
+        <h1 className="text-white text-4xl lg:text-4xl font-bold leading-tight">
+          Since joining Borgholm, we’ve grown the division <br /> into a team
+          that covers everything
         </h1>
       </div>
     </div>

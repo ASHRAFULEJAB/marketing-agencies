@@ -58,8 +58,9 @@ const TeamGridSection = () => {
         </div>
         <div className="mt-12 text-center">
           <p className="text-xl italic mb-6">
-            Lorem ipsum dolor sit amet, ei nam possim melius nostrum <br />{" "}
-            consequuntur, cum porro elitr dicant te, exerci vulputate.
+            Our team is committed to delivering excellence in every project we
+            undertake, and we believe in the power <br /> of collaboration and
+            innovation to drive success.
           </p>
           <a
             href="#"

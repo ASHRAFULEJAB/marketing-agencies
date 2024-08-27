@@ -13,44 +13,53 @@ const services = [
   {
     icon: SeoIcon,
     title: "SEO Consultancy",
-    description: "Etiam vel placerat enim dapibus varius massa sodales lacinia",
+    description:
+      "Expert guidance to improve your search engine rankings and drive more traffic to your site.",
   },
   {
     icon: CompetitorIcon,
     title: "Competitor Analysis",
-    description: "Etiam vel placerat enim dapibus varius massa sodales lacinia",
+    description:
+      "In-depth analysis of your competitors to help you stay ahead in the market.",
   },
   {
     icon: SocialMarketingIcon,
     title: "Social Marketing",
-    description: "Etiam vel placerat enim dapibus varius massa sodales lacinia",
+    description:
+      "Strategic social media campaigns to enhance your brand presence and engage with your audience.",
   },
   {
     icon: ReportingIcon,
     title: "Reporting & Analysis",
-    description: "Etiam vel placerat enim dapibus varius massa sodales lacinia",
+    description:
+      "Detailed reports and analytics to measure performance and optimize your marketing strategies.",
   },
   {
     icon: GraphicDesignIcon,
     title: "Graphic Design",
-    description: "Etiam vel placerat enim dapibus varius massa sodales lacinia",
+    description:
+      "Creative and visually appealing designs that represent your brand effectively.",
   },
   {
     icon: WebDesignIcon,
     title: "Web Design",
-    description: "Etiam vel placerat enim dapibus varius massa sodales lacinia",
+    description:
+      "Responsive and user-friendly website designs that provide an excellent user experience.",
   },
   {
     icon: DevelopmentIcon,
     title: "Development",
-    description: "Etiam vel placerat enim dapibus varius massa sodales lacinia",
+    description:
+      "Custom web and app development solutions tailored to your business needs.",
   },
   {
     icon: MotionGraphicsIcon,
     title: "Motion Graphics",
-    description: "Etiam vel placerat enim dapibus varius massa sodales lacinia",
+    description:
+      "Engaging motion graphics to capture your audience's attention and convey your message effectively.",
   },
 ];
+
 
 const OurServicesSection = () => {
   return (

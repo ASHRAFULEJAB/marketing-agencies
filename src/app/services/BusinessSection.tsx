@@ -14,13 +14,15 @@ const BusinessSection = () => {
           What we can do for <br /> your business
         </h1>
         <p className="text-gray-600 italic text-lg leading-relaxed mb-6">
-          Lorem ipsum dolor sit amet, consectetur adipisicing.
+          We specialize in strategies that drive growth and efficiency.
         </p>
         <p className="text-gray-600 text-lg leading-relaxed mb-6">
-          <strong>Et ullum iisque</strong> conclusionemque eam,
-          <strong>mel ad erat</strong> vitae accumsan noluisse, nostrum accumsan
-          movet salutandi. Fugit expetenda interesset no his, nec eloquentiam
-          proin eu. Sea id malorum dolores sapientem, saepe.
+          <strong>Innovative solutions</strong> tailored to your unique business
+          needs,
+          <strong>designed to deliver</strong> measurable results. We focus on
+          enhancing productivity and maximizing ROI through strategic planning
+          and execution. Let us help you navigate the complexities of the market
+          and achieve your business goals.
         </p>
         <a
           href="#"

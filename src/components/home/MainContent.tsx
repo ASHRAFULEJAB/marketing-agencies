@@ -5,12 +5,16 @@ import Image from "next/image";
 
 const MainContent = () => {
   return (
-    <div className="relative flex flex-col lg:flex-row items-center justify-between px-16 py-12
-     bg-white">
+    <div
+      className="relative flex flex-col lg:flex-row items-center justify-between px-16 py-12
+     bg-white"
+    >
       {/* Background Shape */}
-      <div className="absolute inset-y-0 right-0 lg:w-1/2 w-full lg:h-full
+      <div
+        className="absolute inset-y-0 right-0 lg:w-1/2 w-full lg:h-full
        h-1/2 bg-gradient-to-l from-transparent via-white to-gray-100 
-       transform translate-x-1/4 lg:translate-x-0 lg:skew-x-12 skew-x-6"></div>
+       transform translate-x-1/4 lg:translate-x-0 lg:skew-x-12 skew-x-6"
+      ></div>
 
       {/* Illustration */}
       <div className="relative lg:w-1/2 w-full flex justify-center lg:justify-start">
@@ -29,11 +33,14 @@ const MainContent = () => {
           Methodology
         </h2>
         <h1 className="text-5xl font-bold leading-tight mb-4">
-          Everything  <br />about <span className="text-orange-500">Seo.</span>
+          Everything <br />
+          about <span className="text-orange-500">Seo.</span>
         </h1>
         <p className="text-gray-600 text-base leading-relaxed mb-6">
-          Morbi dictum est volutpat massa faucibus accumsan <br /> amet felis eget sem
-          porttitor placerat quis rutrum.
+          Discover the strategies that drive successful SEO campaigns.
+          <br /> From keyword research to content optimization, we cover all
+          aspects <br /> to help your business rank higher in search engines and
+          attract more.
         </p>
         <a
           href="#"

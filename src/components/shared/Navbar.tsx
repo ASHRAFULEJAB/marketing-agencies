@@ -1,16 +1,20 @@
 "use client";
 import React, { useState } from "react";
+import { usePathname } from "next/navigation"; // Use usePathname from next/navigation
 import { FaSearch } from "react-icons/fa";
 import { HiOutlineMenuAlt3, HiOutlineX } from "react-icons/hi";
 
 const Navbar = () => {
-  // State to manage the mobile menu visibility
+  const pathname = usePathname(); // Get the current route's pathname
   const [menuOpen, setMenuOpen] = useState(false);
 
   // Function to toggle the mobile menu
   const toggleMenu = () => {
     setMenuOpen(!menuOpen);
   };
+
+  // Function to check if the current route matches the link href
+  const isActiveLink = (path: string) => pathname === path;
 
   return (
     <nav className="flex justify-between items-center px-4 py-4 bg-white lg:px-16">
@@ -23,31 +27,60 @@ const Navbar = () => {
       </div>
 
       {/* Desktop Navigation Links */}
-      <ul
-        className={`hidden lg:flex space-x-8 text-sm font-semibold tracking-wide`}
-      >
+      <ul className="hidden lg:flex space-x-8 text-sm font-semibold tracking-wide">
         <li>
-          <a href="/" className="text-orange-500 flex items-center space-x-1">
-            <span>HOME</span>
+          <a
+            href="/"
+            className={`flex items-center space-x-1 ${
+              isActiveLink("/") ? "text-orange-500" : "hover:text-gray-800"
+            }`}
+          >
+            HOME
           </a>
         </li>
         <li>
-          <a href="services" className="hover:text-gray-800">
+          <a
+            href="/services"
+            className={`${
+              isActiveLink("/services")
+                ? "text-orange-500"
+                : "hover:text-gray-800"
+            }`}
+          >
             OUR SERVICES
           </a>
         </li>
         <li>
-          <a href="team" className="hover:text-gray-800">
+          <a
+            href="/team"
+            className={`${
+              isActiveLink("/team") ? "text-orange-500" : "hover:text-gray-800"
+            }`}
+          >
             OUR TEAM
           </a>
         </li>
         <li>
-          <a href="prices" className="hover:text-gray-800">
+          <a
+            href="/prices"
+            className={`${
+              isActiveLink("/prices")
+                ? "text-orange-500"
+                : "hover:text-gray-800"
+            }`}
+          >
             PRICING PLAN
           </a>
         </li>
         <li>
-          <a href="#" className="hover:text-gray-800">
+          <a
+            href="/contact"
+            className={`${
+              isActiveLink("/contact")
+                ? "text-orange-500"
+                : "hover:text-gray-800"
+            }`}
+          >
             CONTACT US
           </a>
         </li>
@@ -78,27 +111,65 @@ const Navbar = () => {
           </div>
           <ul className="flex flex-col items-center space-y-4 py-6 text-sm font-semibold">
             <li>
-              <a href="#" className="text-orange-500" onClick={toggleMenu}>
+              <a
+                href="/"
+                className={`${
+                  isActiveLink("/") ? "text-orange-500" : "hover:text-gray-800"
+                }`}
+                onClick={toggleMenu}
+              >
                 HOME
               </a>
             </li>
             <li>
-              <a href="#" className="hover:text-gray-800" onClick={toggleMenu}>
+              <a
+                href="/services"
+                className={`${
+                  isActiveLink("/services")
+                    ? "text-orange-500"
+                    : "hover:text-gray-800"
+                }`}
+                onClick={toggleMenu}
+              >
                 OUR SERVICES
               </a>
             </li>
             <li>
-              <a href="#" className="hover:text-gray-800" onClick={toggleMenu}>
+              <a
+                href="/team"
+                className={`${
+                  isActiveLink("/team")
+                    ? "text-orange-500"
+                    : "hover:text-gray-800"
+                }`}
+                onClick={toggleMenu}
+              >
                 OUR TEAM
               </a>
             </li>
             <li>
-              <a href="#" className="hover:text-gray-800" onClick={toggleMenu}>
+              <a
+                href="/prices"
+                className={`${
+                  isActiveLink("/prices")
+                    ? "text-orange-500"
+                    : "hover:text-gray-800"
+                }`}
+                onClick={toggleMenu}
+              >
                 PRICING PLAN
               </a>
             </li>
             <li>
-              <a href="#" className="hover:text-gray-800" onClick={toggleMenu}>
+              <a
+                href="/contact"
+                className={`${
+                  isActiveLink("/contact")
+                    ? "text-orange-500"
+                    : "hover:text-gray-800"
+                }`}
+                onClick={toggleMenu}
+              >
                 CONTACT US
               </a>
             </li>
